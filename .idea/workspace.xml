@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9caceca9-93de-4c6f-818c-3ac9b5ba0ee8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WtluYGrTptjklfgPKEoXoCSpOQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PycharmFlaskApp" type="Python.FlaskServer">
+      <module name="PycharmFlaskApp" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\85ar\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9caceca9-93de-4c6f-818c-3ac9b5ba0ee8" name="Default Changelist" comment="" />
+      <created>1579976994112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579976994112</updated>
+      <workItem from="1579977014654" duration="110000" />
+      <workItem from="1580065679085" duration="690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="904" height="268" key="GridCell.Tab.0.bottom" timestamp="1580066412181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580066412181" />
+    <state width="904" height="268" key="GridCell.Tab.0.center" timestamp="1580066412181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580066412181" />
+    <state width="904" height="268" key="GridCell.Tab.0.left" timestamp="1580066412181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580066412181" />
+    <state width="904" height="268" key="GridCell.Tab.0.right" timestamp="1580066412181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580066412181" />
+    <state x="0" y="77" key="SettingsEditor" timestamp="1580066351226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580066351226" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PycharmFlaskApp$PycharmFlaskApp.coverage" NAME="PycharmFlaskApp Coverage Results" MODIFIED="1580065759856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
