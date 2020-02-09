@@ -5,14 +5,21 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/index')
 def index():
-    return render_template('index.html', title='Калькулятор', name='Это программа Калькулятор')
+    operators = []
+    with open('operands.txt', encoding='utf8') as f
+        for opers in f:
+            operators.append(opers.strip())
+    return render_template('index.html')
 
+@app.route('/names')
+def names():
+    name = 'Артур'
+    return render_template('names.html', name=name)
 
-@app.route('/view')
-def view():
-    return 'View'
+@app.route('/about')
+def about():
+    return 'Это программа Калькулятор'
 
 
 if __name__ == '__main__':
