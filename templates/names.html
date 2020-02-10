@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Имена</title>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <p>Имя пользователя: {{ name }}</p>
+{% for name in entities %}
+    <p> {{ name }}</p>
+{% endfor %}
 </body>
 </html>
