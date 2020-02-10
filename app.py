@@ -6,15 +6,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    operators = []
+    with open('operands.txt', encoding='utf8') as f
+        for opers in f:
+            operators.append(opers.strip())
     return render_template('index.html')
 
 @app.route('/names')
 def names():
-    entities = list()
-    with open('names.txt', encoding='utf8') as f:
-        for raw_line in f:
-            entities.append(raw_line.strip())
-    return render_template('names.html', entities = entities)
+    name = 'Артур'
+    return render_template('names.html', name=name)
 
 @app.route('/about')
 def about():
@@ -23,6 +24,3 @@ def about():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
