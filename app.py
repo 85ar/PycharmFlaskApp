@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/index')
 def index():
-    return render_template('index.html', title='Калькулятор', name='Это программа Калькулятор')
+    return render_template('index.html')
 
 
-@app.route('/view')
-def view():
-    return 'View'
+@app.route('/names')
+def names():
+    name = 'Владимир'
+    return render_template('names.html', name = name)
 
 
 if __name__ == '__main__':
