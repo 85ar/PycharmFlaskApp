@@ -5,16 +5,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    operators = []
-    with open('operands.txt', encoding='utf8') as f
-        for opers in f:
-            operators.append(opers.strip())
     return render_template('index.html')
 
 @app.route('/names')
 def names():
-    name = 'Артур'
-    return render_template('names.html', name=name)
+    entities = list()
+    with open('names.txt', encoding='utf-8') as f:
+        for raw_line in f:
+            entities.append(raw_line.strip())
+    return render_template('names.html', entities=entities)
 
 @app.route('/about')
 def about():
