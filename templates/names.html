@@ -6,8 +6,17 @@
     <link rel="stylesheet", href="/static/css/style.css">
 </head>
 <body>
-{% for name in entities %}
-    <p> {{ name}} </p>
-{% endfor %}
+    <div id="menu">
+        <div id="menu">
+            <a href="/">Главная</a>
+            <a href="/table">Таблица</a>
+            <a href="/users">Пользователи</a>
+        </div>
+        <div id="content">
+            {% for name in entities %}
+                <p> {{ name}} </p>
+            {% endfor %}
+        </div>
+    </div>
 </body>
 </html>
