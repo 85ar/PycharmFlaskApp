@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9caceca9-93de-4c6f-818c-3ac9b5ba0ee8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/loging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/names.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/names.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/loging.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/loging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/names.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +129,8 @@
       <workItem from="1581446883053" duration="298000" />
       <workItem from="1581447748133" duration="494000" />
       <workItem from="1581533968266" duration="1418000" />
-      <workItem from="1581614662110" duration="1407000" />
+      <workItem from="1581614662110" duration="1443000" />
+      <workItem from="1582132703416" duration="6945000" />
     </task>
     <task id="LOCAL-00001" summary="Add another route">
       <created>1580069729869</created>
@@ -170,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581535614727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Двигаемся дальше3">
+      <created>1581618093496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581618093496</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,13 +197,14 @@
     <MESSAGE value="добавил много чего" />
     <MESSAGE value="Двигаемся дальше" />
     <MESSAGE value="Двигаемся дальше2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Двигаемся дальше2" />
+    <MESSAGE value="Двигаемся дальше3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Двигаемся дальше3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="46" key="CommitChangelistDialog2" timestamp="1581535613619">
+    <state x="508" y="46" key="CommitChangelistDialog2" timestamp="1581618092320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581535613619" />
+    <state x="508" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581618092320" />
     <state x="1187" y="100" width="641" height="856" key="DiffContextDialog" timestamp="1581355834652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,22 +217,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="300" y="394" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580067895217" />
-    <state width="930" height="272" key="GridCell.Tab.0.bottom" timestamp="1581615411381">
+    <state width="902" height="272" key="GridCell.Tab.0.bottom" timestamp="1582140824318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581615411381" />
-    <state width="930" height="272" key="GridCell.Tab.0.center" timestamp="1581615411381">
+    <state width="902" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582140824318" />
+    <state width="902" height="272" key="GridCell.Tab.0.center" timestamp="1582140824317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581615411381" />
-    <state width="930" height="272" key="GridCell.Tab.0.left" timestamp="1581615411381">
+    <state width="902" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582140824317" />
+    <state width="902" height="272" key="GridCell.Tab.0.left" timestamp="1582140824317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581615411381" />
-    <state width="930" height="272" key="GridCell.Tab.0.right" timestamp="1581615411381">
+    <state width="902" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582140824317" />
+    <state width="902" height="272" key="GridCell.Tab.0.right" timestamp="1582140824317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581615411381" />
+    <state width="902" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582140824317" />
+    <state width="1865" height="333" key="GridCell.Tab.1.bottom" timestamp="1582137422768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582137422768" />
+    <state width="1865" height="333" key="GridCell.Tab.1.center" timestamp="1582137422768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582137422768" />
+    <state width="1865" height="333" key="GridCell.Tab.1.left" timestamp="1582137422768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582137422768" />
+    <state width="1865" height="333" key="GridCell.Tab.1.right" timestamp="1582137422768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582137422768" />
     <state x="184" y="86" key="MergeDialog" timestamp="1581358306522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580067735221" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1581535635263">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1581618106228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581535635263" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581618106228" />
     <state x="92" y="92" width="776" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580066529030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,7 +280,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmFlaskApp$PycharmFlaskApp.coverage" NAME="PycharmFlaskApp Coverage Results" MODIFIED="1580065759856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Pycharm_flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1581615294867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pycharm_flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582140824310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PycharmFlaskApp$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1581356672594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

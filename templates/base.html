@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Программа Калькулятор{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="menu">
+            <a href="/">Войти</a>
+            <a href="/index">Главная</a>
+            <a href="/loging">Логирование</a>
+            <a href="/about">О программе</a>
+            <a href="/logout">Выход</a>
+        </div>
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

@@ -4,22 +4,25 @@ app = Flask(__name__)
 
 
 @app.route('/')
+@app.route('/auth/<name>')
+def auth(name):
+    return render_template('auth.html', name=name)
+
 @app.route('/index')
 def index():
-    return render_template('auth.html')
+    return render_template('index.html')
 
-@app.route('/names')
-def names():
-    entities = list()
-    with open('names.txt', encoding='utf-8') as f:
-        for raw_line in f:
-            entities.append(raw_line.strip())
-    return render_template('names.html', entities=entities)
+@app.route('/loging')
+def loging():
+    return render_template('loging.html')
 
 @app.route('/about')
 def about():
-    return 'Это программа Калькулятор'
+    return render_template('about.html')
 
+@app.route('/logout')
+def logout():
+    return render_template('auth.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
