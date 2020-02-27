@@ -1,3 +1,14 @@
 {% extends "base.html" %}
 
-{% block content %}Главная{% endblock %}
+{% block content %}
+    <h2> Программа Калькулятор!</h2>
+<form method="post" action="/calc.py">
+<table>
+    <p>Введи первое число:</p>
+    <tr><td>1 число =</td><td><input name = 'a' type="TEXT" width="60"></td></tr>
+    <p>Введи второе число:</p>
+    <tr><td>2 число =</td><td><input name = 'b' type="TEXT" width="60"></td></tr>
+</table>
+</form>
+
+{% endblock %}
